@@ -1,0 +1,451 @@
+body {margin:0;font-family:Arial;
+ transition: background-color .5s;
+ background: white;
+ color: black;
+
+
+}
+body{
+  background: white;
+  color: black;
+}
+.topnav{
+  font-family: cursive;
+  font-size: 1px;
+  font-family: 'Lancelot';
+  font-size: 19px;
+  background-color: black;
+
+
+}
+.bbg{
+  background-image: url("04_kitchen_scene.jpg");
+}
+.h1{
+  text-align: center;
+  color: #232323;
+}
+.bg{
+  margin-top: -0%;
+}
+p .bg{
+  font-size: 300px;
+  text-align: center;
+}
+.footer{
+  background: black;
+}
+.active{
+  background-color: black;
+  font-family: cursive;
+}
+h5{
+text-align: center;
+font-size: 40px;
+font-family: Lancelot;
+
+}
+#open{
+text-align: center;
+font-family: cursive;
+}
+.abouts{
+padding-left: 6%;
+padding-right: 6%;
+font-family: cursive;
+font-size: 20px;
+}
+.i{
+color: steelblue;
+font-family: Lancelot;
+font-size: 30px;
+}
+
+.form-inline {
+display: flex;
+flex-flow: row wrap;
+align-items: center;
+font-family: cursive;
+padding-left: 10%;
+padding-right: 10%;
+
+
+}
+
+.form-inline label {
+margin: 5px 10px 5px 0;
+}
+
+.form-inline input {
+vertical-align: middle;
+margin: 5px 10px 5px 0;
+padding: 10px;
+background-color: #fff;
+border: 1px solid #ddd;
+}
+
+.form-inline button {
+padding: 10px 20px;
+background-color: dodgerblue;
+border: 1px solid #ddd;
+color: white;
+}
+
+.form-inline button:hover {
+background-color: royalblue;
+}
+
+@media (max-width: 800px) {
+.form-inline input, .form-inline .button {
+  margin: 10px 0;
+}
+
+.form-inline {
+  flex-direction: column;
+  align-items: stretch;
+}
+}
+.container {
+position: relative;
+width: 50%;
+max-width: 300px;
+}
+
+.image {
+display: block;
+width: 100%;
+height: auto;
+}
+
+.overlay {
+position: absolute;
+bottom: 0;
+background: rgb(0, 0, 0);
+background: rgba(0, 0, 0, 0.5); /* Black see-through */
+color: #f1f1f1;
+width: 100%;
+transition: .5s ease;
+opacity:0;
+color: white;
+font-size: 20px;
+padding: 20px;
+text-align: center;
+}
+
+.container:hover .overlay {
+opacity: 1;
+}
+h3{
+text-align: center;
+font-family: Helvetica;
+font-weight: lighter;
+font-size: 30px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+  transition: 0.3s;
+  font-family: cursive;
+}
+
+.sidenav a:hover {
+  background-color:steelblue;
+  color: black;
+  transition: 0.7s;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+.sidenav {padding-top: 15px;}
+.sidenav a {font-size: 18px;}
+}
+.js{
+background-color: white;
+border-radius: 20%;
+position: fixed;
+padding: 0%;
+color: black;
+opacity: 0.8;
+
+}
+.js:hover{
+background-color:black;
+transition: 1.5s;
+color: white;
+}
+.awards{
+padding-left: 15%;
+padding-right: 15%;
+font-family: Lancelot;
+font-size: 20px;
+}
+.hrs{
+width: 6%;
+margin-top: -5%;
+}
+.hrr{
+width: 30%;
+margin-top: -2%;
+
+}
+.buttons{
+border-radius: 3%;
+}
+.buttons:hover{
+background-color: white;
+color: black;
+}
+.button{
+background-color: white;
+border-radius: 45%;
+color: black;
+margin-left: 95%;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: black;
+  opacity: ;
+
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+
+}
+
+.active {
+  background-color: #123245+inherit
+
+
+
+                ;
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.topnav a:hover, .dropdown:hover .dropbtn {
+  background-color: steelblue;
+  color: black;
+  transition: 0.9s;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+    color: #232323;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child), .dropdown .dropbtn {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .topnav.responsive .dropdown {float: none;}
+  .topnav.responsive .dropdown-content {position: relative;}
+  .topnav.responsive .dropdown .dropbtn {
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("24_kitchen_scene.jpg");
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bgs{
+  background-image: url("kitchen_ready_items_part_1.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+
+}
+.input{
+  font-family: cursive;
+  padding-left: 2%;
+  background: steelblue;
+  color: white;
+}
+.input:hover{
+  background-color: black;
+  color: steelblue;
+}
+#tab{
+  font-size: 30px;
+  font-family: cursive;
+  font-weight: lighter;
+  text-align: center;
+}
+
+}
+
+  #open{
+    text-align: center;
+    font-family: cursive;
+  }
+}
+
+.fas {
+  padding: 200px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius:;
+  display: inline;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
